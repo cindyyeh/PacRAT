@@ -14,7 +14,7 @@
 ## ******* Section 1: For CentOS7 on the Genome Sciences cluster ******* #
 ## Comment this section out if you are running locally or on a different cluster environment
 # module load python/3.7.7
-# module load numpy/1.19.2
+# module load numpy/1.19.2 # numpy is no longer available on the cluster as a module. install it using pip or conda
 # module load biopython/1.77
 # module load joblib/0.15.1
 # 
